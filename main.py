@@ -24,6 +24,7 @@ def main():
                 winner = True
                 if str(input("Play again?(y/n)")) == "y":
                     main()
+                break
 
 
 if __name__ == '__main__':
